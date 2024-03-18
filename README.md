@@ -14,3 +14,5 @@ En aquest repositori trobaràs els exercicis corresponents al mòdul 8.2 del IT 
 
 ### 5. Programa per crear edificis.
 
+## Extra: Modul 8.1 Mètodes d'array.
+
