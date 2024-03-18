@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <style>
+      /* Estilo de los botones */
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 150px;
+      }
+      .button1 {
+        background-color: rgb(87, 122, 175);
+      }
+
+      /* formulario oculto inicialmente */
+      #creacioVols {
+        display: none;
+      }
+
+      #modVols {
+        display: none;
+      }
+
+      #modTrue {
+        display: none;
+      }
+
+      #banner,
+      #crud {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Ponemos un banner para que sea mas guay-->
+    <section id="banner">
+      <img src="/POO RITA 🗂️/carrousel/image/avion.jpeg" title="Ejercicio 2 modulo 8.2" alt="Se ve un avión" />
+    </section>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <!--Caja de título guay-->
+    <h2> <p style="background: #f7f5f5; font-weight: bold; padding: 15px; border-top: 2px solid #e298b2; border-bottom: 2px solid #6581cf; text-align: center"> Gestió de vols </p> </h2>
+    
+    <div id="crud">
+      <button class="button button1" onclick="createVol()"> <b><h4>C</h4></b>create</button>
+      <button class="button button1" onclick="readVol()"> <b><h4>R</h4></b>read</button>
+      <button class="button button1" onclick="updateVol()"> <b><h4>U</h4></b>update</button>
+      <button class="button button1" onclick="deleteVol()"><b><h4>D</h4></b>delete</button>
+    </div>
+
+    <form>
+      <fieldset id="creacioVols">
+        <legend><h3>Creació de vols</h3></legend>
+
+        <label for="numeroVol">Número de vol:</label>
+        <input type="text" id="numeroVol" name="numeroVol" placeholder="ex: IB123"> <br> <br>
+
+        <label for="distancia">Distancia (km):</label> <input type="number" id="distancia" name="distancia" placeholder="ex: 23454" required> <br> <br>
+
+        <label for="companyia">Companyía:</label>
+        <input type="text" id="companyia" name="companyia" placeholder="ex: Iberia"> <br> <br>
+
+        <label for="nombrePassatgers">Número de passsatgers:</label>
+        <input type="number" id="nombrePassatgers" name="nombrePassatgers" placeholder="ex: 46"> <br> <br>
+
+        <label for="nombreMotors">Número de motors:</label>
+        <input type="number" id="nombreMotors" name="nombreMotors" placeholder="màxim 4"> <br> <br>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset id="modTrue">
+        <legend><h3>Panell de modificació</h3></legend>
+
+        <label for="numeroVolmod">Número de vol:</label>
+        <input type="text" id="numeroVolMod" name="numeroVolMod" placeholder="ex: IB123"> <br> <br>
+
+        <label for="distancia">Distancia(km):</label>
+        <input type="number" id="distanciaMod" name="distanciaMod" placeholder="ex: 23454" required> <br> <br>
+
+        <label for="companyia">Companyía:</label> 
+        <input type="text" id="companyiaMod" name="companyiaMod" placeholder="ex: Iberia"> <br> <br>
+
+        <label for="nombrePassatgers">Número de passsatgers:</label>
+        <input type="number" id="nombrePassatgersMod" name="nombrePassatgersMod" placeholder="ex: 46"> <br> <br>
+
+        <label for="nombreMotors">Número de motors:</label>
+        <input type="number" id="nombreMotorsMod" name="nombreMotorsMod" placeholder="màxim 4"> <br> <br>
+      </fieldset>
+    </form>
+
+<div id="result"></div>
+<!-- Enlazar las clases -->
+<script src="./claseVol.js"></script>
+<!-- Luego las operaciones (en orden)-->
+<script src="./arrayVols.js"></script>
+ <!-- Enlazar el CRUD -->
+<script src="./crud.js"></script>
+</body>
+</html>
