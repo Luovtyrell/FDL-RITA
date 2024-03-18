@@ -4,15 +4,12 @@ En aquest repositori trobaràs els exercicis corresponents al mòdul 8.2 del IT 
 
 ## Exercicis:
 
-### 1. Client.
+1. **Client**: [Exercici 1 aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/ej%201)
+2. **Vols**: [Exercici 2 aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/ej%202)
+3. **Programa per gestionar vols de clients**: Descripción del ejercicio y enlace al archivo correspondiente.
+4. **Avió Comercial, Avioneta i Jet privat**: Descripción del ejercicio y enlace al archivo correspondiente.
+5. **Programa per crear edificis**: Descripción del ejercicio y enlace al archivo correspondiente.
 
-### 2. Vols.
+## Extra:
 
-### 3. Programa per gestionar vols de clients.
-
-### 4. Avió Comercial, Avioneta i Jet privat.
-
-### 5. Programa per crear edificis.
-
-## Extra: Modul 8.1 Mètodes d'array.
-
+- **Modul 8.1 Mètodes d'array**: [Exercici Arrays aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/M%208.1/ej%201)
