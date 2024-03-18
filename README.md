@@ -6,9 +6,9 @@ En aquest repositori trobaràs els exercicis corresponents al mòdul 8.2 del IT 
 
 1. **Client**: [Exercici 1 aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/ej%201)
 2. **Vols**: [Exercici 2 aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/ej%202)
-3. **Programa per gestionar vols de clients**: Descripción del ejercicio y enlace al archivo correspondiente.
-4. **Avió Comercial, Avioneta i Jet privat**: Descripción del ejercicio y enlace al archivo correspondiente.
-5. **Programa per crear edificis**: Descripción del ejercicio y enlace al archivo correspondiente.
+3. **Programa per gestionar vols de clients**:
+4. **Avió Comercial, Avioneta i Jet privat**:
+5. **Programa per crear edificis**: 
 
 ## Extra:
 
