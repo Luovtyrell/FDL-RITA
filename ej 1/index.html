@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id = "title">Modulo 8.2 ej 1</title>
+    <style>
+    </style>
+</head>
+<style>
+    .btn_entra {
+        border: none;
+        color: black;
+        padding: 3px 20px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    .btn_entra {
+        background-color: white;
+        border: 2px solid #e0dfdf;
+    }
+
+    .btn_entra:hover {
+        background: #e0dfdf;
+        color: white;
+    }
+
+    #result {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #e0dfdf;
+        border-radius: 4px;
+        text-align: justify;
+    }
+</style>
+
+<body>
+    <h1>Modul 8.2: Ex 1 classe Client</h1>
+    <h2>Tria si vols consultar o modificar</h2>
+    <select name="RU" id="RU">
+        <option value="Read">Consultar</option>
+        <option value="Update">Modifica</option>
+    </select>
+    <button class="btn_entra" id="read" onclick="RU()">Entra</button>
+    <p>
+    <h3>Resultats:</h2>
+    <div id="result">
+    </div>
+    </p>
+    <!-- 1 se enlazan las clases, 2 array, 3 crud, 4 main -->
+    <script src="classeClient.js"></script>
+    <script src="./arrayClients.js"></script>
+    <script src="./crud.js"></script>
+</body>
+
+</html>
