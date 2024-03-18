@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodes de Array</title>
+    <style>
+         #result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+         }
+    </style>
+</head>
+<body>
+    <h1>Metodes de Array</h1>
+
+    <h4>Aquí busca la persona que té el DNI introduït i la posició d'aquesta a l'array</h4>
+    <input type="number" placeholder="Escriu el DNI" id="dni">
+    <input type="button" value="Cerca" onclick="Buscar()"><br>
+
+    <h4>Aquí busca les persones que tenen el hobby introduït</h4>
+    <input type="text" placeholder="Escriu el hobby" id="hobby">
+    <input type="button" value="Cerca" onclick="hobbyBuscar()"><br>
+
+    <h4>Mostra el total de hobbys que hi ha amb el Reduce</h4>
+    <input type="button" value="Reduce" onclick="hobbyReduce()"><br>
+
+    <h4>S'informa amb el some si alguna persona té el hobby introduït</h4>
+    <input type="text" placeholder="Escriu el hobby" id="hobbySome">
+    <input type="button" value="Some" onclick="verificarSome()"><br>
+
+    <h4>Posa l'array en majúscules</h4>
+    <input type="button" value="Majúscules" onclick="majuscules()">
+
+    <h3>Resultats:</h3>
+    <div id="result"></div>
+
+    <script src="arrayPersones.js"></script>
+</body>
+</html>
