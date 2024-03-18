@@ -4,11 +4,11 @@ En aquest repositori trobaràs els exercicis corresponents al mòdul 8.2 del IT 
 
 ## Exercicis:
 
-### 1. Client
+### 1. Client.
 
-### 2. Vols
+### 2. Vols.
 
-### 3. Programa per gestionar vols de clients
+### 3. Programa per gestionar vols de clients.
 
 ### 4. Avió Comercial, Avioneta i Jet privat.
 
