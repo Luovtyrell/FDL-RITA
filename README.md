@@ -13,3 +13,4 @@ En aquest repositori trobaràs els exercicis corresponents al mòdul 8.2 del IT 
 ## Extra:
 
 - **Modul 8.1 Mètodes d'array**: [Exercici Arrays aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/f136440e1ff5e32795b801cdded1479e10546676/M%208.1/ej%201)
+- **Modul 7.3 Botiga de surf**: [Exercici botiga de surf aquí](https://github.com/Luovtyrell/FDLP_Lucia-M-Ordonez-Vilanova/tree/4d1dde3fd7def3e7f42cde5fdb93a142a0e790f3/M%207.3%20Botiga%20de%20surf)
