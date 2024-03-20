@@ -49,13 +49,13 @@ function readVol() {
   clearResult()
   let numeroVol = prompt("Ingresa el número de vol:", "Ex: IB123")
   let result = document.getElementById("result")
+  let encontrado = false
   let vol = null
   let i = 0
 
-  while (i < vols.length) {
+  while (i < vols.length && !encontrado) {
     if (vols[i].getNumeroVol() === numeroVol) {
       vol = vols[i]
-      break
     }
     i++
   }
