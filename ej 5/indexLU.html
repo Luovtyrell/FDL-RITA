@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programa per crear edificis</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    #centrarDiv {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="button"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+        background-color: #0056b3;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #result {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        margin-top: 20px;
+    }
+
+    #result p {
+        margin: 0;
+    }
+</style>
+
+<body>
+    <h1>Gestiona Edificis 🏗️ </h1>
+    <div id="centrarDiv" style="margin: auto">
+        <section id="select_building">
+            <select name="building" id="building">
+                <option value="0">Escull un edifici</option>
+                <option value="1">hotel</option>
+                <option value="2">hospital</option>
+                <option value="3">cinema</option>
+            </select>
+        </section>
+        <section id="generic_building">
+            <input type="text" class="generic" placeholder="nom" name="nombre" id="nombre" />
+            <input type="number" class="generic" placeholder="plantas" name="plantas" id="plantas" />
+            <input type="number" class="generic" placeholder="superficie" name="superficie" id="superficie" />
+        </section>
+        <section id="hotel_building">
+            <input type="number" placeholder="habitacions" class="hotel" name="habitaciones" id="habitaciones" />
+        </section>
+        <section id="hospital_building">
+            <input type="number" placeholder="malalts" class="hospital" name="malalts" id="malalts" />
+        </section>
+        <section id="cinema_building">
+            <input type="number" placeholder="aforament" class="cinema" name="aforament" id="aforament" />
+            <input type="number" placeholder="asistencia" class="cinema" name="asistencia" id="asistencia" />
+            <input type="number" placeholder="entrada" class="cinema" name="entrada" id="entrada" />
+        </section>
+        <div>
+            <input type="button" value="Create" id="boton_input" onclick="create()" />
+
+            <input type="button" value="Read" onclick="readBuilding()" />
+
+            <input type="button" value="Update" onclick="updateBuilding()" />
+
+            <input type="button" value="Delete" onclick="deleteBuilding()" />
+        </div>
+        <div id="result"></div>
+        <script src="claseEdifici.js"></script>
+        <script src="claseCinema.js"></script>
+        <script src="claseHospital.js"></script>
+        <script src="claseHotel.js"></script>
+        <script src="arrayEdificis.js"></script>
+        <script src="crud.js"></script>
+</body>
+
+</html>
