@@ -17,15 +17,18 @@ function createAvio() {
     switch (tipusAvio) {
         case 'comercial':
             avioUsuari = new AvioComercial(numeroAvio, marca, modelo, carregaKg, llargariaM)
+            alert("Avió comercial creat correctament!")
             break;
 
         case 'avioneta':
             let helix = prompt("Introduïu el nombre d'hèlix")
             avioUsuari = new Avioneta(numeroAvio, marca, modelo, carregaKg, llargariaM, helix)
+            alert("Avioneta creada correctament!")
             break;
 
         case 'jet':
             avioUsuari = new JetPrivat(numeroAvio, marca, modelo, carregaKg, llargariaM)
+            alert("Jet Privat creat correctament!")
             break;
     }
     avions.push(avioUsuari)
