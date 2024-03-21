@@ -42,10 +42,9 @@ function readAvio() {
     //Buscamos con un bucle
     let i = 0;
     let avio = null;
-    while (i < avions.length) {
+    while (i < avions.length && !avio) {
         if (avions[i].numeroAvio === numeroAvioU) {
             avio = avions[i]
-            break
         }
         i++
     }
