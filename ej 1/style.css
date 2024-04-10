@@ -1,0 +1,25 @@
+.btn_entra {
+    border: none;
+    color: black;
+    padding: 3px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn_entra {
+    background-color: white;
+    border: 2px solid #e0dfdf;
+}
+
+.btn_entra:hover {
+    background: #e0dfdf;
+    color: white;
+}
+
+#result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e0dfdf;
+    border-radius: 4px;
+    text-align: justify;
+}
